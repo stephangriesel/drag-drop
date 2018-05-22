@@ -16,11 +16,29 @@ body {
 }
 
 .content {
-  background: #ffffff;
   width: 70%;
-  height: 200px;
+  height: 210px;
   top: 30%;
   left: 50%;
   transform: translate(-50%,-50%);
   position: absolute;
+}
+
+.fill {
+    background-image:url('http://source.unsplash.com/random/200x200');
+    position: relative;
+    height:180px;
+    width:180px;
+    top:5px;
+    left:5px;
+    cursor: pointer;
+}
+
+.empty {
+    display: inline-block;
+    height:190px;
+    width:190px;
+    margin:10px;
+    border:3px #969696 solid;
+    background-color: aliceblue;
 }
